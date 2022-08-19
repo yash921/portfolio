@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Yash Dixit </span>
             from <span className="purple"> Ajmer, India.</span>
-            <br />I am currently working as an associate software engineer at
+            <br />I am currently working as a associate software engineer at
             Pegasystems.
             <br />
             <br />
