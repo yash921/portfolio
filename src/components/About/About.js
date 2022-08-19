@@ -2,10 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
-import Techstack from "./Techstack";
+import LanguageStack from "./LanguageStack";
+import Toolstack from "./Toolstack";
+import DatabaseStack from "./DatabaseStack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
+
 
 function About() {
   return (
@@ -34,16 +36,21 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Programming <strong className="purple">Languages </strong>
         </h1>
-
-        <Techstack />
+        <LanguageStack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          Devops <strong className="purple">Tools</strong>
         </h1>
         <Toolstack />
+
+        <h1 className="project-heading">
+          Data<strong className="purple">base</strong>
+        </h1>
+        <DatabaseStack />
 
         <Github />
       </Container>
